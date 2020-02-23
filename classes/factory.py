@@ -1,7 +1,7 @@
-from cadeau import Cadeau
-from nain import Nain
+from .cadeau import Cadeau
+from .nain import Nain
 from random import randint
-from traineau import Traineau
+from .traineau import Traineau
 
 
 
@@ -80,8 +80,3 @@ class Factory():
             self.traineau.deliver(factory)
     
 
-    def sum(self,arg):
-        total = 0
-        for val in arg:
-            total += val
-        return total
