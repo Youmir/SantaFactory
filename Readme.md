@@ -5,7 +5,7 @@ Demarrer l'usine :
 --------------------
 
 Pour demarrer l'usine, il suffit de lancer : 
-**python3 noel.py _Nombre de cadeau a creer_**
+**python3 noel.py _Nombre-de-cadeau-a-creer_**
 
 Si vous donner pas un numero en argument de la commande, le nombre par defaut est 15
 
