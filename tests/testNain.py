@@ -4,6 +4,8 @@ from classes.cadeau import Cadeau
 
 class NainTest(unittest.TestCase):
 
+#Example of unittest
+# Lancer le nain a emballer et verifier la disponibilite et le temps que ca va lui prendre
     def TestStartWrapGift(self):
         gift = Cadeau("small")
         worker = Nain(1)
