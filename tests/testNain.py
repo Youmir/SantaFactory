@@ -1,6 +1,6 @@
 import unittest
-from .classes.nain import Nain
-from .classes.cadeau import Cadeau
+from classes.nain import Nain
+from classes.cadeau import Cadeau
 
 class NainTest(unittest.TestCase):
 

@@ -1,6 +1,5 @@
-from __future__ import absolute_import
 import unittest
-from classes.factory import *
+from classes.factory import Factory
 class FactoryTest(unittest.TestCase):
 
     def TestSum(self):

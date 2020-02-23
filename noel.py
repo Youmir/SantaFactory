@@ -1,5 +1,5 @@
 import sys
-from factory import Factory
+from classes.factory import Factory
 from random import choices
 
 
