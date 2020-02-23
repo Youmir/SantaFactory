@@ -78,3 +78,10 @@ class Factory():
                 self.traineau.tryToDeliver(self)
         if self.traineau.IsEmpty() == False:
             self.traineau.deliver(factory)
+    
+
+    def sum(self,arg):
+        total = 0
+        for val in arg:
+            total += val
+        return total

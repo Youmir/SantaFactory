@@ -16,21 +16,24 @@ class Traineau():
         self.numOfGifts = 0
         self.IsHere = True
 
-# IsPleain : verifie si le traineau est plein
-# params:
-#       - 
+# IsPlein : verifie si le traineau est plein
+# retour : True si le traineau est plein, False s'il est vide.
+
 
     def IsPlein(self):
         return True if self.capacite == self.maxCapacite else False
 
-# IsPleain : 
-# params:
-#       - 
+
+# IsEmpty : verifie si le traineau est vide
+# retour : True si le traineau est vide, False s'il est plein.: 
 
     def IsEmpty(self):
         return True if self.capacite == 0 else False
 
-# IsPleain : 
+# PutAGift : si le traineau est dans l'usine et que le poids du cadeau n'induira pas un depassement du poids max du traineau,
+#            affiche que le cadeau emballe sera deposer dans le traineau, 
+#            rajoute le poids du ceadeau dans le poids du traineau et incremente le nombre de cadeau dans le traineau de 1
+# retours : True si le cadeau a ete  depose dans le traineau, sinon False
 # params:
 #       - 
 
